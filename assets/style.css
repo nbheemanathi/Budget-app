@@ -38,6 +38,31 @@ body {
     background-position: center;
     position: relative;
 }
+.button{
+    position: absolute;
+    top:30px;
+    left:30px;
+}
+.button__app{
+    background-color: #9951ff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0 10px 50px black;
+    transition: all .3s;
+}
+
+
+.button:hover{
+    transform: translateY(-2px);
+  }
+  .button:focus,
+.button:active{
+  transform: translateY(-1px);
+}
 
 .budget {
     position: absolute;
